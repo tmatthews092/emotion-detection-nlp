@@ -79,10 +79,10 @@ python nrclex_pipeline.py
 
 **Note**: This should take around 5-10 minutes to complete.
 
-**Outputs**
-outputs/figures/class_distribution.png
-outputs/figures/nrclex_confusion_matrix.png
-outputs/results/nrclex_classification_report.csv
+**Outputs** \
+outputs/figures/class_distribution.png \
+outputs/figures/nrclex_confusion_matrix.png \
+outputs/results/nrclex_classification_report.csv \
 outputs/results/nrclex_predictions.csv
 
 ### 2. DeBERTa-v3
@@ -100,11 +100,11 @@ python deberta_pipeline.py
 
 **Note**: I used a RTX 3060, which took ~70 minutes with fp16 = true 
 
-**Outputs:**
-outputs/figures/deberta_training_loss.png
-outputs/figures/deberta_confusion_matrix.png
-outputs/results/deberta_classification_report.csv
-outputs/results/deberta_predictions.csv
+**Outputs:** \
+outputs/figures/deberta_training_loss.png \
+outputs/figures/deberta_confusion_matrix.png \
+outputs/results/deberta_classification_report.csv \
+outputs/results/deberta_predictions.csv \
 outputs/models/deberta/
 
 ### 3. Error Analysis
@@ -113,16 +113,16 @@ outputs/models/deberta/
 python error_analysis.py
 ```
 
-**Outputs:**
-outputs/figures/per_class_f1_comparison.png
-outputs/results/model_comparison.csv
-outputs/results/negation_errors.csv
-outputs/results/implicit_emotion_examples.csv
+**Outputs:** \
+outputs/figures/per_class_f1_comparison.png \
+outputs/results/model_comparison.csv \
+outputs/results/negation_errors.csv \
+outputs/results/implicit_emotion_examples.csv \
 outputs/results/nrclex_confusion_pairs.csv
 
 ### Folders
 
-**data**: GoEmotion dataset
-**outputs/figures**: generated images from the predicted results.
-**outputs/models**: deberta-v3 checkpoints, which are snapshots of the model weights at the end of each epoch.
+**data**: GoEmotion dataset \
+**outputs/figures**: generated images from the predicted results. \
+**outputs/models**: deberta-v3 checkpoints, which are snapshots of the model weights at the end of each epoch. \
 **outputs/results**: csvs of predicted results, negation errors, implicit emotion examples and nrclex confusion pairs.
