@@ -1,7 +1,7 @@
 # Emotion Detection in Text: NRC EmoLex vs DeBERTa-v3
 
-**Author:** Theodore Matthews
-**Course:** CSPB 3828 Natural Language Processing
+**Author:** Theodore Matthews \
+**Course:** CSPB 3828 Natural Language Processing \
 **Date:** April 2026
 
 ## Overview
